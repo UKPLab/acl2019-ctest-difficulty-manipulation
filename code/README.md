@@ -1,4 +1,4 @@
-# Instructions for runnning the code for generating manipulated C-tests
+# Instructions for running the code for generating manipulated C-tests
 
 Please ensure to have set up python 3 and to *download* and include all necessary resources and put them into a folder named *DKPro-Core*. Additionally, ensure that *DifficultyPrediction.jar* [1] lies within the folder where the code is executed.
 
