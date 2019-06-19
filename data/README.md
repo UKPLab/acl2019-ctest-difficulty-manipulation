@@ -30,5 +30,7 @@ The answers for each user for the self-assessment they provided at the begin of 
 
 This data was collected using a self-implemented web interface. Each participant was provided with randomly created credentials linked to a unique user ID. To protect our participants identity, the ordering during handing out the credentials was further obfuscated and randomized. We did not collect any personal information from our participants and asked each participant for their consent on publishing this dataset. For experiments with a similar setup and task, we obtained the approval of the university's ethics commission.
 
-Please also note the license of this data <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+Please also note the license of this data:
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
