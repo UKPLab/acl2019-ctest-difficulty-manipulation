@@ -27,7 +27,7 @@ Source code and data from our user study our ACL 2019 article.
 
 Drop me a line or report an issue if something is broken (and shouldn't be) or if you have any questions.
 
-For license information, see LICENSE files in `code/*/` and `NOTICE.txt`.
+For license information, please see the LICENSE and README files in `code/*` and `data/*`.
 
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
 
@@ -38,7 +38,7 @@ For license information, see LICENSE files in `code/*/` and `NOTICE.txt`.
 
 ## Data description
 
-will follow
+A description of the data can be found in `data/README.md` .
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
