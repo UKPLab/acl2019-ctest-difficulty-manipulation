@@ -1,18 +1,19 @@
 # Manipulating the Difficulty of C-Tests
+### Ji-Ung Lee, Erik Schwan, and Christian M. Meyer
+#### [UKP Lab, TU Darmstadt](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp)
 
-Source code and data from our user study our ACL 2019 article. 
+Source code and data from our user study of our ACL 2019 article. 
 
 <!--
 ```
 @inproceedings{Habernal.Gurevych.2016.ACL,
-  author    = {Ivan Habernal and Iryna Gurevych},
-  title     = {{Which argument is more convincing? Analyzing and predicting convincingness
-               of Web arguments using bidirectional LSTM}},
-  booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational
+  author    = {Ji-Ung Lee and Erik Schwan and Christian M., Meyer},
+  title     = {{Manipulating the Difficulty of C-Tests}},
+  booktitle = {Proceedings of the 57th Annual Meeting of the Association for Computational
               Linguistics (Volume 1: Long Papers)},
-  year      = {2016},
-  address   = {Berlin, Germany},
-  pages     = {1589--1599},
+  year      = {2019},
+  address   = {Florence, Italy},
+  pages     = {to appear},
   publisher = {Association for Computational Linguistics},
   url       = {http://www.aclweb.org/anthology/P16-1150}
 }
