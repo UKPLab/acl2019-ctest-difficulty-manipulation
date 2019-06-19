@@ -4,14 +4,11 @@ Please ensure to have set up python 3 and to *download* and include all necessar
 
 To set up the DKPro-Core environment properly, please download following resources and put them into the specified folders:
 
-        TreeTagger and Chunker : https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/
-        Put the binaries under DKPro-Core/Treebank/lib/en/
+* [TreeTagger and Chunker](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/) : Put the binaries under `~/DKPro-Core/Treebank/lib/en/`
 
-        Semantic analysis calculated on the Wikipedia corpus : https://public.ukp.informatik.tu-darmstadt.de/baer/wp_eng_lem_nc_c.zip
-        To be extracted to DKPro-Core/difficultyResources/
+* [Semantic analysis calculated on the Wikipedia corpus](https://public.ukp.informatik.tu-darmstadt.de/baer/wp_eng_lem_nc_c.zip) : To be extracted to `~/DKPro-Core/difficultyResources/`
 
-        Web1T : https://catalog.ldc.upenn.edu/LDC2006T13
-        1gram, 2gram, and 3gram to be placed unter DKPro-Core/web1t/en/
+* [Web1T](https://catalog.ldc.upenn.edu/LDC2006T13) :  1gram, 2gram, and 3gram to be placed unter `~/DKPro-Core/web1t/en/`
 
 
 1.	Create a virtual environment, e.g. using conda: 
