@@ -54,7 +54,7 @@ Each sentence is split by a '----'. Gapped tokens include the gap id, the part o
 
 ### Further comments
 
-This code reuses various resources introduced by Beinborn (2016). Please refer to this work for more specific information on the used features. 
+This code reuses various resources introduced by Beinborn (2016). Please refer to the work below for more specific information on the used features. 
 
 ### References
 *Beinborn, Lisa Marina*. [Predicting and Manipulating the Difficulty of Text-Completion Exercises for Language Learning](http://tuprints.ulb.tu-darmstadt.de/5647/).
