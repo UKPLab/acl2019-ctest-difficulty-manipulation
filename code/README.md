@@ -14,6 +14,7 @@ Please ensure to have set up python 3 and to *download* and include all necessar
 		python CTestGenerator_Strategies_perFile.py [options]
 
 Options are as follows:
+
 --strategy : Strategy to create C-test. DEF, SIZE, or SEL
 
 --target : Target error rate for the generated C-test. (float)
@@ -23,6 +24,7 @@ Options are as follows:
 --ctest : Output file for the C-test.
 
 Example usage:
+
         python CTestGenerator_Strategies_perFile.py --strategy DEF --target 0.5 --infile data/cd10_2.txt --ctest results/cd10_2_DEF.txt
 
 The resulting C-test is in DKPro TC format, i.e. a tab separated file with a single token in each line.
