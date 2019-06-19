@@ -1,9 +1,6 @@
-# Note: This is a modified version of the code for the anonymous review process.
-To comply with the anonymous review process, we cannot provide all necessary resources to run our manipulation system. Thus, all resources which are too big to be uploaded to softconf (e.g. our reproduced difficulty prediction system) will be provided upon acceptance on an external file server. 
-
 # Instructions for runnning the code for generating manipulated C-tests
 
-Please ensure to have set up python 3 and to *download* and include all necessary resources and put them into a folder named *DKPro-Core*. Additionally, ensure that *DifficultyPrediction.jar* lies within the folder where the code is executed.
+Please ensure to have set up python 3 and to *download* and include all necessary resources and put them into a folder named *DKPro-Core*. Additionally, ensure that *DifficultyPrediction.jar* [1] lies within the folder where the code is executed.
 
 1.	Create a virtual environment, e.g. using conda: 
 		conda create --name diffman
@@ -25,6 +22,10 @@ Options are as follows:
 
 --ctest : Output file for the C-test.
 
+Example usage:
+        python CTestGenerator_Strategies_perFile.py --strategy DEF --target 0.5 --infile data/cd10_2.txt --ctest results/cd10_2_DEF.txt
 
 The resulting C-test is in DKPro TC format, i.e. a tab separated file with a single token in each line.
 Each sentence is split by a '----'. Gapped tokens include the gap id, the part of the word which is displayed, and the estimated error rate.
+
+[1] https://public.ukp.informatik.tu-darmstadt.de/acl19-C_test-difficulty-manipulation/DifficultyPrediction.jar
