@@ -1,13 +1,18 @@
 # Instructions for running the code for generating manipulated C-tests
 
-Please ensure to have set up python 3 and to *download* and include all necessary resources and put them into a folder named *DKPro-Core*. Additionally, ensure that *DifficultyPrediction.jar* [1] lies within the folder where the code is executed.
+The code runs under python 3. Please ensure to download *all* necessary resources (see below) and put them into a folder named `DKPro-Core`. 
 
-To set up the DKPro-Core environment properly, please download following resources and put them into the specified folders:
+Make sure to download the [DifficultyPrediction.jar](https://public.ukp.informatik.tu-darmstadt.de/acl19-C_test-difficulty-manipulation/DifficultyPrediction.jar) and put it to the folder where the code is executed (`code/`).
 
-* [TreeTagger and Chunker](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/) : Put the binaries under `~/DKPro-Core/Treebank/lib/en/`
+## Setting up the resources
+
+To set up the DKPro-Core environment properly, you require access to additional resources which we either cannot distribute freely or are too big to host them ourselves. Please request access to the following resources and put them into the specified folders:
+
+* [TreeTagger and Chunker](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/) : Put the English binaries under `~/DKPro-Core/Treebank/lib/en/`
 * [Web1T](https://catalog.ldc.upenn.edu/LDC2006T13) :  1gram, 2gram, and 3gram to be placed unter `~/DKPro-Core/web1t/en/`
 * [Semantic analysis calculated on the Wikipedia corpus](https://public.ukp.informatik.tu-darmstadt.de/baer/wp_eng_lem_nc_c.zip) : To be extracted to `~/DKPro-Core/difficultyResources/`
 
+## Setting up the virtual environment and running the code
 
 1.	Create a virtual environment, e.g. using conda: 
 
@@ -46,4 +51,11 @@ Example usage:
 The resulting C-test is in DKPro TC format, i.e. a tab separated file with a single token in each line.
 Each sentence is split by a '----'. Gapped tokens include the gap id, the part of the word which is displayed, and the estimated error rate.
 
-[1] https://public.ukp.informatik.tu-darmstadt.de/acl19-C_test-difficulty-manipulation/DifficultyPrediction.jar
+
+### Further comments
+
+This code reuses various resources introduced by Beinborn (2016). Please refer to this work for more specific information on the used features. 
+
+### References
+*Beinborn, Lisa Marina*. [Predicting and Manipulating the Difficulty of Text-Completion Exercises for Language Learning](http://tuprints.ulb.tu-darmstadt.de/5647/).
+Technische Universität Darmstadt, Darmstadt, Ph.D. Thesis, (2016) 
