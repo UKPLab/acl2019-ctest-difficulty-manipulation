@@ -2,7 +2,7 @@
 
 The code runs under python 3. Please ensure to download *all* necessary resources (see below) and put them into a folder named `DKPro-Core`. 
 
-Make sure to download the [DifficultyPrediction.jar](https://public.ukp.informatik.tu-darmstadt.de/acl19-C_test-difficulty-manipulation/DifficultyPrediction.jar) and put it to the folder where the code is executed (`code/`).
+Make sure to download the [DifficultyPrediction.jar](https://public.ukp.informatik.tu-darmstadt.de/acl19-C_test-difficulty-manipulation/DifficultyPrediction.jar) and put it to the folder where the code is executed (`python_code/`).
 
 ## Setting up the resources
 
