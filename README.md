@@ -4,21 +4,21 @@
 
 Source code and data from our user study of our ACL 2019 article. 
 
-<!--
 ```
-@inproceedings{Habernal.Gurevych.2016.ACL,
-  author    = {Ji-Ung Lee and Erik Schwan and Christian M., Meyer},
-  title     = {{Manipulating the Difficulty of C-Tests}},
-  booktitle = {Proceedings of the 57th Annual Meeting of the Association for Computational
-              Linguistics (Volume 1: Long Papers)},
-  year      = {2019},
-  address   = {Florence, Italy},
-  pages     = {to appear},
-  publisher = {Association for Computational Linguistics},
-  url       = {http://www.aclweb.org/anthology/P16-1150}
+@inproceedings{lee-etal-2019-manipulating,
+    title = "Manipulating the Difficulty of C-Tests",
+    author = "Lee, Ji-Ung  and
+      Schwan, Erik  and
+      Meyer, Christian M.",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P19-1035",
+    pages = "360--370",
 }
 ```
--->
 
 > **Abstract:** We propose two novel manipulation strategies for increasing and decreasing the difficulty of C-tests automatically. This is a crucial step towards generating learner-adaptive exercises for self-directed language learning and preparing language assessment tests. To reach the desired difficulty level, we manipulate the size and the distribution of gaps based on absolute and relative gap difficulty predictions. We evaluate our approach in corpus-based experiments and in a user study with 60 participants. We find that both strategies are able to generate C-tests with the desired difficulty level.
 
