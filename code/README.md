@@ -3,6 +3,7 @@
 The code runs under python 3. Please ensure to download *all* necessary resources (see below) and put them into a folder named `DKPro-Core`. 
 
 Make sure to download the [DifficultyPrediction.jar](https://public.ukp.informatik.tu-darmstadt.de/acl19-C_test-difficulty-manipulation/DifficultyPrediction.jar) and put it to the folder where the code is executed (`python_code/`).
+<!--- old file location: https://public.ukp.informatik.tu-darmstadt.de/acl19-C_test-difficulty-manipulation/DifficultyPrediction.jar -->
 
 ## Setting up the resources
 
@@ -10,7 +11,8 @@ To set up the DKPro-Core environment properly, you require access to additional 
 
 * [TreeTagger and Chunker](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/) : Put the English binaries under `~/DKPro-Core/Treebank/lib/en/`
 * [Web1T](https://catalog.ldc.upenn.edu/LDC2006T13) :  1gram, 2gram, and 3gram to be placed unter `~/DKPro-Core/web1t/en/`
-* [Semantic analysis calculated on the Wikipedia corpus](https://public.ukp.informatik.tu-darmstadt.de/baer/wp_eng_lem_nc_c.zip) : To be extracted to `~/DKPro-Core/difficultyResources/`
+* [Semantic analysis calculated on the Wikipedia corpus](https://tudatalib.ulb.tu-darmstadt.de/bitstream/handle/tudatalib/2704/wp_eng_lem_nc_c.zip?sequence=6&isAllowed=y) : To be extracted to `~/DKPro-Core/difficultyResources/`
+<!--- old file location: https://public.ukp.informatik.tu-darmstadt.de/baer/wp_eng_lem_nc_c.zip -->
 
 ## Setting up the virtual environment and running the code
 
