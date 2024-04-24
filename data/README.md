@@ -1,4 +1,31 @@
 # Manipulating the Difficulty of C-Tests
+### Ji-Ung Lee, Erik Schwan, and Christian M. Meyer
+#### [UKP Lab, TU Darmstadt](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp)
+
+Source code and data from our user study of our [ACL 2019 article](https://www.aclweb.org/anthology/P19-1035/). 
+
+```
+@inproceedings{lee-etal-2019-manipulating,
+    title = "Manipulating the Difficulty of C-Tests",
+    author = "Lee, Ji-Ung and Schwan, Erik and Meyer, Christian M.",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P19-1035",
+    pages = "360--370",
+}
+```
+
+> **Abstract:** We propose two novel manipulation strategies for increasing and decreasing the difficulty of C-tests automatically. This is a crucial step towards generating learner-adaptive exercises for self-directed language learning and preparing language assessment tests. To reach the desired difficulty level, we manipulate the size and the distribution of gaps based on absolute and relative gap difficulty predictions. We evaluate our approach in corpus-based experiments and in a user study with 60 participants. We find that both strategies are able to generate C-tests with the desired difficulty level.
+
+* **Contact person:** Ji-Ung Lee, ji-ung.lee@tu-darmstadt.de
+    * UKP Lab: http://www.ukp.tu-darmstadt.de/
+    * TU Darmstadt: http://www.tu-darmstadt.de/
+
+Drop me a line or report an issue if something is broken (and shouldn't be) or if you have any questions.
+
 ## Data collected in the user study
 
 This folder contains the dataset which was collected in the user study for the human evaluation of our difficulty manipulation strategies.
