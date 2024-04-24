@@ -2,7 +2,7 @@
 ### Ji-Ung Lee, Erik Schwan, and Christian M. Meyer
 #### [UKP Lab, TU Darmstadt](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp)
 
-Source code and data from our user study of our [ACL 2019 article](https://www.aclweb.org/anthology/P19-1035/). 
+Data from our user study of our [ACL 2019 article](https://www.aclweb.org/anthology/P19-1035/). 
 
 ```
 @inproceedings{lee-etal-2019-manipulating,
