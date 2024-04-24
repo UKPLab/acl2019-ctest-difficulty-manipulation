@@ -3,6 +3,7 @@
 #### [UKP Lab, TU Darmstadt](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp)
 
 This repository contains code and data from our [ACL 2019 article](https://www.aclweb.org/anthology/P19-1035/). 
+
 To run the code, it is necessary to first setup a respective `DKPro` environment as described in the [README](https://github.com/UKPLab/acl2019-ctest-difficulty-manipulation/tree/master/code).
 All models to run the C-Test generation with both our proposed strategies are provided in the folder `python_code`.
 The data from our user study is described in the respective [README](https://github.com/UKPLab/acl2019-ctest-difficulty-manipulation/tree/master/data) in the data folder.
