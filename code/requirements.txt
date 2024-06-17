@@ -5,5 +5,5 @@ matplotlib==2.1.2
 scipy==1.10.0
 pandas==0.22.0
 SQLAlchemy==1.3.0
-scikit_learn==0.21.2
+scikit_learn==1.5.0
 splitter==0.1.1
